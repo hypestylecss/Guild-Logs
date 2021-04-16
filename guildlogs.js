@@ -1,4 +1,5 @@
 const logChannel = 'CHANNEL_ID';
+
 bot.on('guildCreate', (guild) => {
     bot.channels.cache.get(logChannel).send(
         new MessageEmbed()
